@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace PaulHennell\ActionableMessages\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ActionableMessagesCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'actionable-messages-for-laravel';
 
     public $description = 'My command';
 
