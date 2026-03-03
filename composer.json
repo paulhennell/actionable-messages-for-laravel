@@ -41,7 +41,8 @@
     "autoload-dev": {
         "psr-4": {
             "PaulHennell\\ActionableMessages\\Tests\\": "tests/",
-            "Workbench\\App\\": "workbench/app/"
+            "Workbench\\App\\": "workbench/app/",
+            "Illuminate\\": "vendor/laravel/framework/src/Illuminate"
         }
     },
     "scripts": {

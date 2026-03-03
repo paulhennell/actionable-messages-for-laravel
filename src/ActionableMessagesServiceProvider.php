@@ -4,7 +4,6 @@ namespace PaulHennell\ActionableMessages;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use PaulHennell\ActionableMessages\Commands\ActionableMessagesCommand;
 
 class ActionableMessagesServiceProvider extends PackageServiceProvider
 {
@@ -16,7 +15,6 @@ class ActionableMessagesServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('actionable-messages-for-laravel')
-            ->hasConfigFile()
-            ->hasCommand(ActionableMessagesCommand::class);
+            ->hasConfigFile('actionable-messages');
     }
 }
